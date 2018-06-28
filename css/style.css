@@ -1,0 +1,29 @@
+
+
+body {
+  background: #EDDFD8;
+  color: #4923F4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight:100;
+  font-size:30pt;
+  color:#4923F4;
+  letter-spacing: .05em;
+}
+
+p {
+  font-weight:300;
+}
+
+.warning-content {
+  position:absolute;
+  top:25%;
+  width:100%;
+  height:300px;
+  text-align:center;
+  margin:0;
+  
+  
+}
