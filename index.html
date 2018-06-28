@@ -5,17 +5,20 @@
         <meta charset="UTF-8">
         <meta property="og:title" content="Work in Progress">
         <meta property="og:description" content="Haylie Toth's portfolio, creative developer.">
-        <meta property="og:image" content="https://github.com/haylietoth/haylietoth.github.io/blob/master/images/thumbnail.jpg">
+        <meta property="og:image" content="/images/thumbnail.jpg">
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
     </head>
     
     <body>
         <div class="warning-content">
-            <h1>Work in Progress...</h1>
-            
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	             width="100.001px" height="70px" viewBox="0 0 100 68">
                 
@@ -66,10 +69,25 @@
                         repeatCount="indefinite"/>
                 </g>
             </svg>
+            <h1>Work in Progress...</h1>
             <p>
-              Thanks for visiting! <br />
-              Check back here again soon. 
+              Thanks for visiting! I am currently working on updating this site. <br />
             </p>
+            <button id="flip" type="button" class="btn btn-default">Get to know me in the meantime</button>
+            <div id="panel" class="wrapper">
+                <div class="roles">
+                    <div>
+                        I am a web developer.
+                    </div>
+                    <div>
+                        I am a problem solver.
+                    </div>
+                    <div>
+                        I am an aspiring individual.
+                    </div>
+                </div>
+            </div>
         </div>
+        <script  src="js/index.js"></script>
     </body>
 </html>
