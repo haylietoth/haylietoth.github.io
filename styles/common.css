@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  margin: 2em;
+  margin: 2em 2em 4em 2em;
 }
 
 h1 {
@@ -43,7 +43,6 @@ h3 {
 
 p {
   font-size: 16px;
-  text-align: justify;
 }
 
 ul {
@@ -52,7 +51,14 @@ ul {
 }
 
 li {
-  margin: .5em;
+  margin: .5em .5em .5em 0;
+}
+
+span {
+  font-weight: 300;
+  font-style: italic;
+  display: block;
+  padding-left: 5px;
 }
 
 .link {
@@ -72,10 +78,6 @@ li {
 .leftToRight:hover {
   box-shadow: inset 300px 0 0 0 var(--secondary);
   color: var(--background);
-}
-
-.single {
-  margin-left: 15px;
 }
 
 
