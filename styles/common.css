@@ -1,8 +1,9 @@
 
 :root {
   --background: #fff8e5;
-  --blue: #1E2FEE;
-  --dark-blue: #1D29A7;
+  --primary: #1E2FEE;
+  --secondary: #1D29A7;
+  --accent: #FA622A;
   --black: #161529;
 }
 
@@ -23,14 +24,14 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--primary);
   text-align: center;
 }
 
 h2 {
   font-size: 20px;
   font-weight: 600;
-  color: var(--dark-blue);
+  color: var(--primary);
 }
 
 h3 {
@@ -44,3 +45,37 @@ p {
   font-size: 16px;
   text-align: justify;
 }
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: .5em;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: var(--secondary);
+  transition: color 0.7s ease;
+}
+
+.leftToRight {
+  padding: 5px;
+  box-shadow: inset 0 0 0 0 var(--secondary);
+  transition: box-shadow 0.7s ease, color 0.7s ease;
+}
+
+.leftToRight:hover {
+  box-shadow: inset 300px 0 0 0 var(--secondary);
+  color: var(--background);
+}
+
+.single {
+  margin-left: 15px;
+}
+
+
